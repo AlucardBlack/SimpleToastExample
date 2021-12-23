@@ -6,6 +6,8 @@ import android.widget.Button
 import android.widget.Toast
 import android.view.Gravity
 import android.view.LayoutInflater
+import android.graphics.Color
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -86,6 +88,20 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this@MainActivity, "Toast:Gravity.Top&Left", Toast.LENGTH_SHORT)
             toast.setGravity(Gravity.TOP or Gravity.START, 0, 0)
             toast.show()
+        }
+
+        //Adding Color Toast
+        lateinit var colorButton: Button
+
+        colorButton = findViewById(R.id.button10)
+        colorButton.setOnClickListener {
+            val colorToast =
+                Toast.makeText(this@MainActivity, "This is colored Toast", Toast.LENGTH_LONG)
+            colorToast.view?.setBackgroundResource(R.drawable.toast_background)
+            val colorToastText = colorToast.view?.findViewById<TextView>(android.R.id.message)
+            colorToastText?.setTextColor(Color.parseColor("#ffffff"))
+            colorToast.show()
+
         }
     }
 }

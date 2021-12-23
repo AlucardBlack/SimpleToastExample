@@ -11,4 +11,5 @@
     <string name="left">Left</string>
     <string name="right">Right</string>
     <string name="top_left">Top Left</string>
+    <string name="see_colored_toast">See Colored Toast</string>
 </resources>
