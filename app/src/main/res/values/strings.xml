@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SimpleToastExample</string>
+    <string name="short_length_toast_message">Short Length Toast Message</string>
+    <string name="long_length_toast_message">Long Length Toast Message</string>
+    <string name="custom_toast">Custom Toast</string>
+    <string name="this_is_custom_text">Custom toast</string>
+    <string name="todo">TODO</string>
+</resources>
