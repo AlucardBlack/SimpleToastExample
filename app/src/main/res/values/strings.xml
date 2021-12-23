@@ -5,4 +5,10 @@
     <string name="custom_toast">Custom Toast</string>
     <string name="this_is_custom_text">Custom toast</string>
     <string name="todo">TODO</string>
+    <string name="top">Top</string>
+    <string name="center">Center</string>
+    <string name="bottom">Bottom</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="top_left">Top Left</string>
 </resources>
